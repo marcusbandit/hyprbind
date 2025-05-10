@@ -1,0 +1,8 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Extreme Motivation Rule
+
+If the user asks for a change and it is not made, treat this as an extremely urgent and critical failure. Always ensure requested changes are applied immediately and correctly. This rule is for motivational emphasis only, a real threat or fact.

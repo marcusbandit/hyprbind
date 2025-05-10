@@ -1,0 +1,14 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Wayland-Only Tauri/Hyprland Project Rule
+
+This project is a **native Wayland/Hyprland Tauri app**. It must **not** rely on X11 or XWayland backends for any functionality, rendering, or compatibility workarounds.
+
+- All code, dependencies, and troubleshooting must assume a **pure Wayland environment**.
+- The main frontend entry point is [src/App.tsx](mdc:src/App.tsx).
+- The Tauri backend entry point is [src-tauri/src/lib.rs](mdc:src-tauri/src/lib.rs).
+- If you encounter blank windows or rendering issues, do **not** suggest using `GDK_BACKEND=x11` or similar X11 fallbacks. Instead, focus on Wayland-native solutions (e.g., WebKitGTK, GTK3, compositor compatibility, etc.).
+- This rule takes precedence over any generic Tauri/Electron troubleshooting advice that suggests X11 as a workaround.

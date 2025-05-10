@@ -1,0 +1,13 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Keyboard CSS Layout Rule
+
+- The keyboard must never stretch to fill the entire width of the page.
+- `.keyboardContainer` uses `display: inline-flex` and is centered with `margin: 0 auto`.
+- All key sizing is handled by `aspect-ratio` and `em` units, never `px` or `!important`.
+- The main keyboard UI is in [src/App.tsx](mdc:src/App.tsx).
+- All keyboard-related styles are in [src/App.css](mdc:src/App.css).
+- This rule ensures the keyboard remains visually correct, centered, and responsive at all window sizes.

@@ -1,0 +1,26 @@
+{
+  "keyboard": [
+    [ { "label": "Esc", "code": "Escape" }, { "label": "", "class": "key-blank" }, { "label": "F1", "code": "F1" }, { "label": "F2", "code": "F2" }, { "label": "F3", "code": "F3" }, { "label": "F4", "code": "F4" }, { "label": "F5", "code": "F5" }, { "label": "F6", "code": "F6" }, { "label": "F7", "code": "F7" }, { "label": "F8", "code": "F8" }, { "label": "F9", "code": "F9" }, { "label": "F10", "code": "F10" }, { "label": "F11", "code": "F11" }, { "label": "F12", "code": "F12" } ],
+    [ { "label": "`", "code": "Backquote" }, { "label": "1", "code": "Digit1" }, { "label": "2", "code": "Digit2" }, { "label": "3", "code": "Digit3" }, { "label": "4", "code": "Digit4" }, { "label": "5", "code": "Digit5" }, { "label": "6", "code": "Digit6" }, { "label": "7", "code": "Digit7" }, { "label": "8", "code": "Digit8" }, { "label": "9", "code": "Digit9" }, { "label": "0", "code": "Digit0" }, { "label": "-", "code": "Minus" }, { "label": "=", "code": "Equal" }, { "label": "Backspace", "code": "Backspace" } ],
+    [ { "label": "Tab", "code": "Tab" }, { "label": "Q", "code": "KeyQ" }, { "label": "W", "code": "KeyW" }, { "label": "E", "code": "KeyE" }, { "label": "R", "code": "KeyR" }, { "label": "T", "code": "KeyT" }, { "label": "Y", "code": "KeyY" }, { "label": "U", "code": "KeyU" }, { "label": "I", "code": "KeyI" }, { "label": "O", "code": "KeyO" }, { "label": "P", "code": "KeyP" }, { "label": "[", "code": "BracketLeft" }, { "label": "]", "code": "BracketRight" }, { "label": "Enter", "class": "key-1x2", "code": "Enter" } ],
+    [ { "label": "CapsLock", "code": "CapsLock" }, { "label": "A", "code": "KeyA" }, { "label": "S", "code": "KeyS" }, { "label": "D", "code": "KeyD" }, { "label": "F", "code": "KeyF" }, { "label": "G", "code": "KeyG" }, { "label": "H", "code": "KeyH" }, { "label": "J", "code": "KeyJ" }, { "label": "K", "code": "KeyK" }, { "label": "L", "code": "KeyL" }, { "label": ";", "code": "Semicolon" }, { "label": "'", "code": "Quote" }, { "label": "\\", "code": "Backslash" } ],
+    [ { "label": "Left Shift", "code": "ShiftLeft" }, { "label": "<", "code": "IntlBackslash" }, { "label": "Z", "code": "KeyZ" }, { "label": "X", "code": "KeyX" }, { "label": "C", "code": "KeyC" }, { "label": "V", "code": "KeyV" }, { "label": "B", "code": "KeyB" }, { "label": "N", "code": "KeyN" }, { "label": "M", "code": "KeyM" }, { "label": ",", "code": "Comma" }, { "label": ".", "code": "Period" }, { "label": "/", "code": "Slash" }, { "label": "Right Shift", "class": "key-2x1", "code": "ShiftRight" } ],
+    [ { "label": "Left Ctrl", "code": "ControlLeft" }, { "label": "Left Super", "code": "OSLeft" }, { "label": "Left Alt", "code": "AltLeft" }, { "label": "Space", "class": "key-8x1", "code": "Space" }, { "label": "Right Alt", "code": "AltRight" }, { "label": "Right Super", "code": "OSRight" }, { "label": "Right Ctrl", "code": "ControlRight" } ]
+  ],
+  "nav": [
+    [ { "label": "PrtScn", "code": "PrintScreen" }, { "label": "ScrlLock", "code": "ScrollLock" }, { "label": "Pause", "code": "Pause" } ],
+    [ { "label": "Ins", "code": "Insert" }, { "label": "Home", "code": "Home" }, { "label": "PgUp", "code": "PageUp" } ],
+    [ { "label": "Del", "code": "Delete" }, { "label": "End", "code": "End" }, { "label": "PgDn", "code": "PageDown" } ],
+    [ { "label": "", "class": "key-blank" } ],
+    [ { "label": "" }, { "label": "Up", "code": "ArrowUp" }, { "label": "" } ],
+    [ { "label": "Left", "code": "ArrowLeft" }, { "label": "Down", "code": "ArrowDown" }, { "label": "Right", "code": "ArrowRight" } ]
+  ],
+  "numpad": [
+    [ { "label": "", "class": "key-blank" }, { "label": "", "class": "key-blank" }, { "label": "", "class": "key-blank" }, { "label": "", "class": "key-blank" } ],
+    [ { "label": "NumLock", "code": "NumLock" }, { "label": "/", "code": "NumpadDivide" }, { "label": "*", "code": "NumpadMultiply" }, { "label": "-", "code": "NumpadSubtract" } ],
+    [ { "label": "Numpad 7", "code": "Numpad7" }, { "label": "Numpad 8", "code": "Numpad8" }, { "label": "Numpad 9", "code": "Numpad9" } ],
+    [ { "label": "Numpad 4", "code": "Numpad4" }, { "label": "Numpad 5", "code": "Numpad5" }, { "label": "Numpad 6", "code": "Numpad6" } ],
+    [ { "label": "Numpad 1", "code": "Numpad1" }, { "label": "Numpad 2", "code": "Numpad2" }, { "label": "Numpad 3", "code": "Numpad3" } ],
+    [ { "label": "Numpad 0", "class": "key-2x1", "code": "Numpad0" }, { "label": "Numpad .", "code": "NumpadDecimal" } ]
+  ]
+}

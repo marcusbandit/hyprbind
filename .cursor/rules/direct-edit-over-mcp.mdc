@@ -1,0 +1,12 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Direct File Editing Over MCP Tools
+
+This rule specifies that when the AI can apply changes directly via built-in edit tools (e.g., `edit_file`, `edit_block`), it should do so without invoking any MCP tool.
+
+- Do not call MCP tools for simple edits or file creations if direct surgical edits suffice.
+- Reserve MCP tools only for functionality that cannot be achieved through direct file modifications (e.g., specialized component generation or logo fetching).
+- Always prefer the direct edit approach to ensure immediate, precise changes.

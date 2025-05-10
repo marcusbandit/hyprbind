@@ -1,0 +1,26 @@
+{
+  "keyboard": [
+    [ { "label": "Esc" }, { "label": "", "class": "key-blank" }, { "label": "F1" }, { "label": "F2" }, { "label": "F3" }, { "label": "F4" }, { "label": "F5" }, { "label": "F6" }, { "label": "F7" }, { "label": "F8" }, { "label": "F9" }, { "label": "F10" }, { "label": "F11" }, { "label": "F12" } ],
+    [ { "label": "§" }, { "label": "1" }, { "label": "2" }, { "label": "3" }, { "label": "4" }, { "label": "5" }, { "label": "6" }, { "label": "7" }, { "label": "8" }, { "label": "9" }, { "label": "0" }, { "label": "+" }, { "label": "'" }, { "label": "Backspace" } ],
+    [ { "label": "Tab" }, { "label": "Q" }, { "label": "W" }, { "label": "E" }, { "label": "R" }, { "label": "T" }, { "label": "Y" }, { "label": "U" }, { "label": "I" }, { "label": "O" }, { "label": "P" }, { "label": "Å" }, { "label": "¨" }, { "label": "Enter", "class": "key-1x2" } ],
+    [ { "label": "CapsLock" }, { "label": "A" }, { "label": "S" }, { "label": "D" }, { "label": "F" }, { "label": "G" }, { "label": "H" }, { "label": "J" }, { "label": "K" }, { "label": "L" }, { "label": "Æ" }, { "label": "Ø" }, { "label": "|" } ],
+    [ { "label": "Left Shift" }, { "label": "<" }, { "label": "Z" }, { "label": "X" }, { "label": "C" }, { "label": "V" }, { "label": "B" }, { "label": "N" }, { "label": "M" }, { "label": "," }, { "label": "." }, { "label": "-" }, { "label": "Right Shift", "class": "key-2x1" } ],
+    [ { "label": "Left Ctrl" }, { "label": "Left Super" }, { "label": "Left Alt" }, { "label": "Space", "class": "key-8x1" }, { "label": "Right Alt" }, { "label": "Right Super" }, { "label": "Right Ctrl" } ]
+  ],
+  "nav": [
+    [ { "label": "PrtScn" }, { "label": "ScrlLock" }, { "label": "Pause" } ],
+    [ { "label": "Ins" }, { "label": "Home" }, { "label": "PgUp" } ],
+    [ { "label": "Del" }, { "label": "End" }, { "label": "PgDn" } ],
+    [ { "label": "", "class": "key-blank" } ],
+    [ { "label": "" }, { "label": "Up" }, { "label": "" } ],
+    [ { "label": "Left" }, { "label": "Down" }, { "label": "Right" } ]
+  ],
+  "numpad": [
+    [ { "label": "", "class": "key-blank" }, { "label": "", "class": "key-blank" }, { "label": "", "class": "key-blank" }, { "label": "", "class": "key-blank" } ],
+    [ { "label": "NumLock" }, { "label": "/" }, { "label": "*" }, { "label": "-" } ],
+    [ { "label": "Numpad 7" }, { "label": "Numpad 8" }, { "label": "Numpad 9" } ],
+    [ { "label": "Numpad 4" }, { "label": "Numpad 5" }, { "label": "Numpad 6" } ],
+    [ { "label": "Numpad 1" }, { "label": "Numpad 2" }, { "label": "Numpad 3" } ],
+    [ { "label": "Numpad 0", "class": "key-2x1" }, { "label": "Numpad ." } ]
+  ]
+} 

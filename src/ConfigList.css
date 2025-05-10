@@ -1,0 +1,140 @@
+.config-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7em;
+  width: auto;
+  max-height: 50vh;
+  overflow-y: auto;
+  height: fit-content !important;
+  padding-left: 0.5em;
+  padding-right: 1em;
+  align-items: center;
+}
+
+.config-list-header {
+  font-size: 1.15em;
+  font-weight: 700;
+  color: #fff;
+  margin: 1.2em 0 0.5em 0;
+  letter-spacing: 0.04em;
+  text-align: left;
+}
+
+.item-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  padding: 0.9em 1.2em;
+  background: #111113;
+  border-radius: 0.5em;
+  border: 1px solid #3A3E43;
+  margin-bottom: 0.5em;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.item-wrapper:hover {
+  border: 1px solid #4a90e2;
+}
+
+.item-wrapper:hover .config-list-item {
+  color: #4a90e2;
+}
+
+.config-list-item {
+  align-items: center;
+  font-size: 1.05em;
+  color: #f6f6f6;
+  cursor: pointer;
+  margin-top: 0.5em;
+}
+
+.mod-keys {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 0.5em;
+}
+
+.dispatcher-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.dispatcher-cell button {
+  width: 100%;
+}
+
+/* Dispatcher trigger button custom style */
+.dispatcher-trigger {
+  background: var(--popover-background);
+  border: 1px solid #444a55;
+  color: var(--popover-foreground);
+  font-size: inherit;
+}
+/* Ensure the trigger inherits text color on hover/focus */
+.dispatcher-trigger:hover,
+.dispatcher-trigger:active {
+  background: #3a4050;
+  color: #fff;
+  border-color: #888fa0;
+}
+
+/* Category header textarea styling */
+.category-header {
+  display: inline-block;
+  background: none;
+  width: 100%;
+  align-self: flex-start;
+  border: none;
+  border-bottom: 1px solid #444a55;
+  color: #f6f6f6;
+  padding: 0.5em;
+  font-size: 1.05em;
+  margin: 0.7em 0;
+  margin-top: 1.5em;
+}
+
+.category-header:focus {
+  outline: none;
+}
+
+/* Item header styling (same as category-header without margins) */
+.item-header {
+  display: inline-block;
+  width: 100%;
+  background: none;
+  align-self: flex-start;
+  border: none;
+  color: #d8d8d8;
+  padding: 0.5em;
+  font-size: 0.75em;
+}
+.item-header:focus {
+  outline: none;
+}
+
+.faded-line-horizontal {
+  height: 2px; /* Adjust the thickness of the line */
+  background: linear-gradient(
+    to right,
+    #3A3E43, /* Solid color at the start */
+    #3A3E4300  /* Transparent at the end */
+  );
+  border: 0; /* Remove the default border */
+}
+
+.faded-line-vertical {
+  width: 2px; /* Adjust the thickness of the line */
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1), /* Solid color at the start */
+    rgba(0, 0, 0, 0)  /* Transparent at the end */
+  );
+  border: 0; /* Remove the default border */
+}

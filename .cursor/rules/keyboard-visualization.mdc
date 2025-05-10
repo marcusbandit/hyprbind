@@ -1,0 +1,14 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Keyboard Visualization and Sizing Rule
+
+- All keyboard key sizing and aspect ratios must be handled using the CSS `aspect-ratio` property and `em` units only.
+- **Never** use `px` or `!important` for key width or height.
+- The `.key-1x1` class is for square keys (letters, numbers, function keys, numpad numbers) and uses `aspect-ratio: 1/1`.
+- The `.key-1x2` class is for tall keys (e.g., numpad Enter, numpad +) and uses `aspect-ratio: 1/2`.
+- The main keyboard UI is implemented in [src/App.tsx](mdc:src/App.tsx).
+- All keyboard-related styles are in [src/App.css](mdc:src/App.css).
+- This rule is to prevent regressions to fixed-pixel or non-aspect-based sizing. All future changes must preserve dynamic, scalable, and aspect-ratio-based key sizing.
