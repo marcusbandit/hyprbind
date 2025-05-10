@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=hyprbind
+Exec=env WEBKIT_DISABLE_COMPOSITING_MODE=1 hyprbind
+Icon=hyprbind
+Categories=Utility;Settings; 
