@@ -1,0 +1,26 @@
+.config-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7em;
+  width: auto;
+  max-height: 50vh;
+  overflow-y: auto;
+  height: fit-content !important;
+  padding-left: 0.5em;
+  padding-right: 1em;
+  align-items: center;
+}
+
+.config-list-header {
+  font-size: 1.15em;
+  font-weight: 700;
+  color: #fff;
+  margin: 1.2em 0 0.5em 0;
+  letter-spacing: 0.04em;
+  text-align: left;
+}
+
+/* Removed item, dispatcher, and other CSS; see ConfigListItem.css for those styles */

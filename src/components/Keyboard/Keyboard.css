@@ -1,0 +1,208 @@
+.keyboard-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 2em auto;
+  background: #23272e;
+  border-radius: 1em;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+  padding: 2em 2.5em;
+  gap: 1.2em;
+}
+
+.main-keyboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.nav-section-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.numpad-keyboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.key-group-row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  gap: 0.2em;
+  margin-bottom: 0.2em;
+}
+
+.key-group-col {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2em;
+}
+
+/* F-Key Row Grouping */
+.fkey-row {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin-bottom: 0.7em;
+}
+.fkey-group {
+  display: flex;
+  gap: 0.2em;
+  padding: 0.2em 0.4em;
+  border-radius: 0.5em;
+  background: rgba(60,60,60,0.15);
+}
+
+.key {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1em;
+  background: #23272e;
+  color: #f6f6f6;
+  border: 1.5px solid #444a55;
+  border-radius: 0.2em;
+  box-shadow: none;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.key:hover, .key:active {
+  background: #3a4050;
+  color: #fff;
+  border-color: #888fa0;
+}
+
+/* 1:1 aspect ratio keys (numbers, letters, fn keys, numpad numbers) */
+.key-1x1 {
+  aspect-ratio: 1 / 1;
+  box-sizing: border-box;
+}
+
+/* 1:2 aspect ratio keys (tall keys, e.g., numpad Enter, numpad +) */
+.key-1x2 {
+  aspect-ratio: 1 / 2;
+  font-size: 1em;
+  vertical-align: top;
+}
+
+.numpad-inner-container-side {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.numpad-inner-container-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.numpad-inner-container-keys {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.key-2x1 {
+  aspect-ratio: 2 / 1;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 0;
+  font-size: 1em;
+  background: #23272e;
+  color: #f6f6f6;
+  border: 1.5px solid #444a55;
+  box-shadow: none;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.key-5x1 {
+  aspect-ratio: 5 / 1;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 0;
+  font-size: 1em;
+  background: #23272e;
+  color: #f6f6f6;
+  border: 1.5px solid #444a55;
+  border-radius: 0.2em;
+  box-shadow: none;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.key-7x1 {
+  aspect-ratio: 7 / 1;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 0;
+  font-size: 1em;
+  background: #23272e;
+  color: #f6f6f6;
+  border: 1.5px solid #444a55;
+  border-radius: 0.2em;
+  box-shadow: none;
+}
+
+.key-3x1 {
+  aspect-ratio: 3 / 1;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 0;
+  font-size: 1em;
+}
+
+.key-blank {
+  visibility: hidden;
+  pointer-events: none;
+  aspect-ratio: 1 / 1;
+  box-sizing: border-box;
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.key-8x1 {
+  aspect-ratio: 8 / 1;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 0;
+  font-size: 1em;
+  background: #23272e;
+  color: #f6f6f6;
+  border: 1.5px solid #444a55;
+  border-radius: 0.2em;
+  box-shadow: none;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.key-group-wrap {
+  display: flex;
+  flex-direction: row;
+  gap: 0.2em;
+}
+
+/* Active key highlight */
+.key--active {
+  background: #4a90e2;
+  color: #fff;
+  border-color: #b0d0ff;
+  box-shadow: 0 0 0.5em 0.1em #4a90e2;
+  transition: background 0.1s, border-color 0.1s;
+} 

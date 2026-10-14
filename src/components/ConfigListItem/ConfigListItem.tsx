@@ -1,4 +1,5 @@
 import React from "react";
+import "./ConfigListItem.css";
 import { Grid } from "@radix-ui/themes";
 
 export default function ConfigListItem({
